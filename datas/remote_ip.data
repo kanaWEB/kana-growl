@@ -1,0 +1,9 @@
+<?php
+if(isset($_SERVER['REMOTE_ADDR'])){
+$data = $_SERVER['REMOTE_ADDR'];
+}
+else
+{
+$data = t("Unknown");
+}
+?>
