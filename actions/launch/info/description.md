@@ -1,1 +1,1 @@
-Launch an MP3 from the folder "sounds"
+Growl can send notifications to your computer or phone as long as you know his ip address

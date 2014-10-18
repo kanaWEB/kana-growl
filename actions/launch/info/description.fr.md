@@ -1,1 +1,1 @@
-Lance un MP3 du dossier sons
+Growl permet d'envoyer des notifications sur votre ordinateur ou votre téléphone, à condition de connaitre son adresse IP

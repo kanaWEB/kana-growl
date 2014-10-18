@@ -1,1 +1,1 @@
-Launch sound
+Send a notification
