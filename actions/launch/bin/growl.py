@@ -6,20 +6,25 @@ import gntp.notifier
 import sys
 
 if len(sys.argv) > 3:
+	hostname = sys.argv[1]
+	password = sys.argv[2] 
+	title = sys.argv[3]
+	description = sys.argv[4]
+
 	growl = gntp.notifier.GrowlNotifier(
 		applicationName = sys.argv[2],
 		notifications = ["New Updates","New Messages"],
 		defaultNotifications = ["New Messages"],
-	hostname = sys.argv[1], # Here enter your IP address
-	password = sys.argv[2] # Here enter your growl password
+	hostname = hostname, # Here enter your IP address
+	password = password # Here enter your growl password
 	)
 	growl.register()
 	# Send one message
 	#image = open('/var/www/tmp/image.jpg', 'rb').read()
 	growl.notify(
 		noteType = "New Messages",
-		title = sys.argv[3],
-		description = sys.argv[4],
+		title = title,
+		description = description,
  		#icon = image, #you can optionally define an image icon to appear with the notification
  		sticky = True,
  		priority = 1,
