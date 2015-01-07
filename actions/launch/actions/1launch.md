@@ -1,3 +1,3 @@
 type      |name    |icon
 ----------|--------|-------
-play      |Play    |expand 
+send      |Send    |expand 
