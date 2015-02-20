@@ -1,0 +1,15 @@
+{
+   "description" : "Growl Notifications",
+   "name" : "Growl can send desktop notification",
+   "tags" : {
+      "desktop" : {},
+      "notification" : {},
+      "growl" : {},
+      "push" : {},
+      "android" : {},
+      "iphone" : {},
+      "macosx" : {},
+      "windows" : {}
+   },
+   "type" : "notification"
+}

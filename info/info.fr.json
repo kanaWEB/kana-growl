@@ -1,0 +1,15 @@
+{
+   "name" : "Notifications Growl",
+   "description" : "Growl permet d'envoyer des notifications sur votre bureau",
+   "tags" : {
+      "desktop" : {},
+      "notification" : {},
+      "growl" : {},
+      "push" : {},
+      "android" : {},
+      "iphone" : {},
+      "macosx" : {},
+      "windows" : {}
+   },
+   "type" : "notification"
+}

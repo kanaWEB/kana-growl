@@ -1,1 +1,0 @@
-desktop,notification,growl,push,android,iphone,macosx,windows
