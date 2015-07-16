@@ -1,3 +1,5 @@
 #!/bin/sh
-apt-get -f install python-pip
-pip install gntp
+. /opt/piget/core/extendPath
+downloadModule growl
+. extendPath
+growlInstall
