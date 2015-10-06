@@ -1,21 +1,21 @@
 {
   "default": {
-    "command": "growl.py",
+    "command": "/do/growl/send",
     "usage" : "growl ipaddress password title message",
     "args": {
       "ipaddress": {
-      	"type": "Config"
+        "type": "Config"
       },
       "password": {
         "type": "Config"
       },
-      "title": {
-		"type": "Actions",
-		"modifier" : "Data"   
+    "title": {
+    "type": "Actions",
+    "modifier" : "Data"   
       },
       "message": {
-      	"type": "Actions",
-      	"modifier" : "Data"
+        "type": "Actions",
+        "modifier" : "Data"
       }
     }
   }
