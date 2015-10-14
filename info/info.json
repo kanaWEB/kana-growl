@@ -1,6 +1,6 @@
 {
-   "description" : "Growl Notifications",
-   "name" : "Growl can send desktop notification",
+   "description" : "Growl can send desktop notification",
+   "name" : "Growl Notifications",
    "tags" : [
       "desktop",
       "notification",
